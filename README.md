@@ -1,17 +1,17 @@
 # Bruteforcer
 
-Burteforcer est un projet écrit en C, développé dans le but de renforcer mes connaissances dans le language C
+**Bruteforcer** is a project written in C, developed to strengthen my understanding of the C programming language.
 
-## Objectif
+## Goal
 
-L'objectif est de créer un outil simple capable de bruteforcer des mots de passe non hachés, puis de le faire évoluer vers une version compatible avec des mots de passe hachés.
+The objective is to build a simple tool capable of brute-forcing passwords, and eventually extend it to support hashed passwords.
 
-## Fonctionnalités actuelles
+## Current Features
 
-- Demande à l'utilisateur d'entrer un mot de passe (maximum 20 caractères).
-- Lance une fonction qui tente de retrouver ce mot de passe par force brute.
+- Prompts the user to enter a password (up to 20 characters).
+- Runs a function that attempts to recover the password using brute-force.
 
-## Prochaines étapes
+## Next Steps
 
-- Ajouter la gestion de mots de passe hachés.
-- Mesurer le temps d'exécution.
+- Add support for hashed passwords.
+- Measure execution time to evaluate performance.
