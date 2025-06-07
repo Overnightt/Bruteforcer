@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+#include "bruteforcer.h"
 
 
 int main() {
@@ -12,6 +12,6 @@ int main() {
         }
         char solution[20] = ""; /*this will be the guess of the bruteforce function */
         char list[] = "azertyuiopqsdfghjklmwxcvbnAZERTYUIOPQSDFGHJKLMWXCVBN1234567890&é(-è_çà)=$*ù!:;,<>#{[^@]}¤£µ%./§?°+";  /*this is the list of all possible character in the password */
-        bruteforce ( pwd, solution, list, 0);
+        bruteforce ( pwd, solution, list, 0, 0);
     return 0;
 }
