@@ -10,7 +10,8 @@ int main() {
         printf("Please enter a password, all characters are allowed, maximum 20 characters   ");
         scanf("%s", pwd);
         }
-        char solution[20] = ""; #this will be the guess of the bruteforce function
-        char list[] = "azertyuiopqsdfghjklmwxcvbnAZERTYUIOPQSDFGHJKLMWXCVBN1234567890&é(-è_çà)=$*ù!:;,<>#{[^@]}¤£µ%./§?°+";  #this is the list of all possible character in the password
+        char solution[20] = ""; /*this will be the guess of the bruteforce function */
+        char list[] = "azertyuiopqsdfghjklmwxcvbnAZERTYUIOPQSDFGHJKLMWXCVBN1234567890&é(-è_çà)=$*ù!:;,<>#{[^@]}¤£µ%./§?°+";  /*this is the list of all possible character in the password */
+        bruteforce ( pwd, solution, list, 0);
     return 0;
 }
