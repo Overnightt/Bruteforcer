@@ -8,7 +8,7 @@ The objective is to build a simple tool capable of brute-forcing passwords, and 
 
 ## Current Features
 
-- Prompts the user to enter a password (up to 20 characters).
+- Prompts the user to enter a password.
 - Runs a function that attempts to recover the password using brute-force.
 
 ## Next Steps
