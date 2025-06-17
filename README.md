@@ -14,4 +14,3 @@ The objective is to build a simple tool capable of brute-forcing passwords, and 
 ## Next Steps
 
 - Add support for hashed passwords.
-- Measure execution time to evaluate performance.
