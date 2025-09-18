@@ -1,19 +1,19 @@
-# Bruteforcer
+#Bruteforcer
 
-**Bruteforcer** is a project written in C, developed to strengthen my understanding of the C programming language.
+Bruteforcer is a project written in C, developed to strengthen my understanding of the C programming language.
 
-## Goal
+##Goal
 
-The objective is to build a simple tool capable of brute-forcing passwords that the user enters as a parameter of the function.
+The goal of this project is to build a simple tool capable of brute-forcing passwords provided by the user.
 
-## Current Features
+##Current Features
 
-- Prompts the user to enter a password.
-- Runs a function that attempts to guess the password using brute-force, works by recursion.
+-Prompts the user to enter a password.
+-Uses a recursive function to attempt to guess the password via brute-force.
 
-## Weaknesses
+##Weaknesses
 
-- Inefficient
-- High memory usage
-- only works on short password
+-Inefficient and slow for longer passwords.
+-High memory usage.
+-Only works reliably on short passwords.
 
