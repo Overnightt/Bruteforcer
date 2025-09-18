@@ -8,12 +8,12 @@ The goal of this project is to build a simple tool capable of brute-forcing pass
 
 ## Current Features
 
--Prompts the user to enter a password.
+-Prompts the user to enter a password. /n
 -Uses a recursive function to attempt to guess the password via brute-force.
 
 ## Weaknesses
 
--Inefficient and slow for longer passwords.
--High memory usage.
--Only works reliably on short passwords.
+-Inefficient and slow for longer passwords. /n
+-High memory usage. /n
+-Only works reliably on short passwords. /n
 
