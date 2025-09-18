@@ -4,13 +4,15 @@
 
 ## Goal
 
-The objective is to build a simple tool capable of brute-forcing passwords, and eventually extend it to support hashed passwords.
+The objective is to build a simple tool capable of brute-forcing passwords that the user enters as a parameter of the function.
 
 ## Current Features
 
 - Prompts the user to enter a password.
 - Runs a function that attempts to recover the password using brute-force.
 
-## Next Steps
+## Weaknesses
 
-- Add support for hashed passwords.
+- Ineficient.
+- High memory usage
+
