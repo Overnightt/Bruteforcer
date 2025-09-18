@@ -9,10 +9,11 @@ The objective is to build a simple tool capable of brute-forcing passwords that 
 ## Current Features
 
 - Prompts the user to enter a password.
-- Runs a function that attempts to recover the password using brute-force.
+- Runs a function that attempts to guess the password using brute-force.
 
 ## Weaknesses
 
-- Ineficient.
+- Inefficient
 - High memory usage
+- only works on short password
 
